@@ -21,4 +21,14 @@ sub driver_method_name {
   $self->method_name($method, 'history');
 }
 
+sub build_method {
+  my ($self, $method_name, $arg) = @_;
+
+  my $method = $self->SUPER::build_method($method_name, $arg);
+
+  return $method if $method_name eq 'add';
+
+  return sub { warn '!!!' }
+}
+
 1;
