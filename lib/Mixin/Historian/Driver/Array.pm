@@ -21,9 +21,14 @@ sub entries {
 }
 
 sub add_history {
-  my ($self, $object, $id, $record) = @_;
+  my ($self, $arg) = @_;
 
-  push @{ $self->_array }, $record;
+  my $record = $arg->{args}[0];
+
+  push @{ $self->_array }, {
+    time   => time,
+    record => $record,
+  };
 }
 
 1;
