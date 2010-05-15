@@ -5,10 +5,13 @@ use Mixin::ExtraFields 0.008 ();
 use base 'Mixin::ExtraFields';
 # ABSTRACT: a mixin for recording history about objects
 
+use Sub::Exporter::ForMethods ();
+
 use Sub::Exporter -setup => {
   groups => {
     history => \'gen_fields_group',
   },
+  installer => Sub::Exporter::ForMethods::method_installer(),
 };
 
 sub default_moniker { 'history' }
