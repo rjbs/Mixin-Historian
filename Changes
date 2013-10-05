@@ -1,4 +1,6 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
-					first release
+
+0.101350  2010-05-15 14:39:41 America/New_York
+					first CPAN release
