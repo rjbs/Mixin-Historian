@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.102000  2013-10-05 07:56:28 America/New_York
           update packaging
 
           write some documentation, for Pete's sake
