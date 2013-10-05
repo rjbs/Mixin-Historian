@@ -2,5 +2,10 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+0.001     2013-10-05 07:54:44 America/New_York
+          update packaging
+
+          write some documentation, for Pete's sake
+
 0.101350  2010-05-15 14:39:41 America/New_York
 					first CPAN release
