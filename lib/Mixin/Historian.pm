@@ -1,9 +1,11 @@
+package Mixin::Historian;
+# ABSTRACT: a mixin for recording history about objects
+
+use Mixin::ExtraFields 0.008 ();
+use parent 'Mixin::ExtraFields';
+
 use strict;
 use warnings;
-package Mixin::Historian;
-use Mixin::ExtraFields 0.008 ();
-use base 'Mixin::ExtraFields';
-# ABSTRACT: a mixin for recording history about objects
 
 use Sub::Exporter::ForMethods ();
 

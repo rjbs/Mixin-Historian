@@ -1,7 +1,8 @@
-use strict;
-use warnings;
 package Mixin::Historian::Driver;
 # ABSTRACT: base class for classes that act as Historian storage drivers
+
+use strict;
+use warnings;
 
 =head1 METHODS
 

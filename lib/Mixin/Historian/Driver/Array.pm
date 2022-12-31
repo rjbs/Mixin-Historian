@@ -1,8 +1,9 @@
-use strict;
-use warnings;
 package Mixin::Historian::Driver::Array;
 use base 'Mixin::Historian::Driver';
 # ABSTRACT: a driver that stores history in an in-memory array (for testing)
+
+use strict;
+use warnings;
 
 =head1 DESCRIPTION
 
